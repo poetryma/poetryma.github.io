@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+.title,.author {
+	text-align: center;
+}
+
+.title {
+	padding-top: 30px;
+	font-size: 2em;
+}
+
+.author{
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.original, .translation {
+	padding: 30px;
+	font-size: 1.2em;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 14px;
+	min-width: 30%;
+}
+
+.original {
+	background: #d8def3;
+}
+
+.translation {
+	background: #b0d1f3;
+}
+
+.header {
+	background: #99acc2;
+	padding: 20px;
+	background-image: url("wild_flowers.png");
+}
+
+h1, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Benne', serif;
+	line-height: 150%;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px;
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
+h1 a, h1 a:active {
+	text-decoration: none;
+	color: #3a4551;
+}
+
+.poemlist {
+	margin: auto;	
+	width: 20%;
+	margin-top: 70px;
+}
+
+.poemlist a, .poemlist a:active {
+	color: #36404b;
+}
+
+.poem {
+	background: #a4c2e2;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 10px;
+	border-radius: 4px;
+}
